@@ -9,6 +9,7 @@ const AUTHORIZATION = '123' // Change
 
 export default {
   async mounted () {
+    // Simulates getting authorization
     await this.sleep()
 
     create({
